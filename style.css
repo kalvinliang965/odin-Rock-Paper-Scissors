@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e1e1e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.score-board,
+.pictures,
+.option,
+.history {
+    min-width: 500px;
+    margin-bottom: 20px;
+}
+
+.score-board {
+    display: flex;
+    flex-direction: row;
+    /* border: 3px solid white; */
+    justify-content: space-between;
+    min-width: 500px;
+}
+
+.score-board .left,
+.score-board .right {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.pictures {
+    min-width: 500px;
+    display: flex;
+    gap: 5px;
+   
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.option {
+    display: flex;
+    /* border: 3px solid white; */
+    padding: 5px;
+    gap: 5px;
+}
+
+
+.option button  {
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+
+.history {
+    border: 2px solid goldenrod;
+    padding: 15px;
+}
+
+button#again-button {
+    background-color: goldenrod;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px 42px;
+    align-self: center;
+}
