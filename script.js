@@ -173,13 +173,5 @@ async function playGame(numRound) {
         console.log("You lose!");
         subheader.textContent = "GAME OVER: YOU LOSE!!!";
     }
-
-    const text = document.createElement("p");
-    text.textContent = "Refresh the page to play again";
-
     history.appendChild(subheader);
-    history.appendChild(text);
-    
-
-
 }
