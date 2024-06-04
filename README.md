@@ -1,3 +1,5 @@
 # odin-Rock-Paper-Scissors
 
-This is just a simple program I wrote to practice function calling in javascript
+## Description
+
+This program is a rock paper scissor game, but I included a UI.
